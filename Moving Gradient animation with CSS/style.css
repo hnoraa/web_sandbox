@@ -1,0 +1,191 @@
+/*
+body {
+    background: -webkit-linear-gradient(
+        -70deg,
+        #a2facf,
+        #64acff
+    );
+    background-size: 5000% 5000%;
+    animation: gradient 5s ease infinite;
+}
+*/
+
+body {
+    background: -webkit-linear-gradient(-70deg,
+            #9400D3,
+            #4B0082,
+            #0000FF,
+            #00FF00,
+            #FFFF00,
+            #FF7F00,
+            #FF0000);
+    background-size: 5000% 5000%;
+    animation      : gradient 55s ease infinite;
+    text-align     : center;
+    height         : 70vh;
+    margin-top     : 100px;
+    display        : flex;
+    flex-flow      : column;
+    justify-content: center;
+    align-items    : center;
+}
+
+.container {
+    padding       : 10px;
+    background    : #ffffff;
+    border-radius : 8px;
+    display       : flex;
+    flex-direction: row;
+    align-items   : flex-end;
+}
+
+.loader1,
+.loader2,
+.loader3,
+.loader4,
+.loader5 {
+    margin       : 5px;
+    border-radius: 4px;
+    background   : linear-gradient(135deg,
+            #dddddd,
+            #fafafa,
+            #dddddd);
+    background-size: 400% 400%;
+    animation      : gradient_card 2s ease infinite;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.loader1 {
+    width : 120px;
+    height: 150px;
+}
+
+.loader2 {
+    width : 200px;
+    height: 20px;
+}
+
+.loader3 {
+    width : 225px;
+    height: 20px;
+}
+
+.loader4 {
+    width : 250px;
+    height: 20px;
+}
+
+.loader5 {
+    width : 250px;
+    height: 60px;
+}
+
+.button {
+    width        : 100px;
+    height       : 50px;
+    color        : white;
+    font-weight  : bold;
+    margin       : 20px;
+    border-radius: 14px;
+    background   : linear-gradient(-70deg,
+            #9400D3,
+            #4B0082,
+            #0000FF,
+            #00FF00,
+            #FFFF00,
+            #FF7F00,
+            #FF0000);
+    background-size: 1200% 1200%;
+    animation      : gradient_button 25s ease infinite;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.hover {
+    background-color: #dddddd;
+    cursor          : pointer;
+    width           : 300px;
+    height          : 100px;
+    color           : black;
+    font-weight     : bold;
+    margin          : 20px;
+    border-radius   : 14px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+.hover:hover {
+    background: linear-gradient(-70deg,
+            #a2facf,
+            #64acff);
+    background-size: 400% 400%;
+    animation      : gradient_hover 3s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradient_card {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    25% {
+        background-position: 66% 75%;
+    }
+
+    50% {
+        background-position: 100% 86%;
+    }
+
+    75% {
+        background-position: 66% 75%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradient_button {
+    0% {
+        background-position: 25% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 25% 50%;
+    }
+}
+
+@keyframes gradient_hover {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

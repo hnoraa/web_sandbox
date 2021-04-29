@@ -1,0 +1,1 @@
+Example from: https://souravdey777.hashnode.dev/moving-gradient-animation-with-css?utm_source=tldrnewsletter
