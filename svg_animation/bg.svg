@@ -1,0 +1,12 @@
+<svg height="2000" width="2000" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient id="bg" gradientTransform="rotate(90)">
+            <stop offset="20%" stop-color="#020579" />
+            <stop offset="60%" stop-color="#028BDC" />
+            <stop offset="80%" stop-color="#dc6f02" />
+        </linearGradient>
+    </defs>
+    <rect x="0" y="0" height="100%" width="100%" fill="url(#bg)" />
+    <rect x="0" y="1900" height="100" width="100%" fill="#000000" />
+</svg> 
